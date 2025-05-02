@@ -1,0 +1,80 @@
+#title-img {
+    width: 200px;
+}
+
+.topbar {
+    background-color: rgb(49, 85, 133);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#signin-icon {
+    scale: 4;
+    transition: 200ms ease-in-out;
+    margin-right: 40px;
+    
+}
+
+#signin-icon:hover {
+    color: rgb(91, 131, 216);
+}
+
+.sign-in-btn {
+    height: 75px;
+    width: 75px;
+    background: none;
+    border: none;
+}
+
+.sign-in-btn:hover {
+    cursor: pointer;
+}
+
+
+/* Dropdown container */
+#sign-in-dropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(66, 102, 153); 
+    padding: 8px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+    z-index: 1000;
+  }
+  
+  /* Visible state */
+  #sign-in-dropdown.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  
+  /* Buttons inside dropdown */
+  #sign-in-dropdown button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: rgb(192, 192, 192);
+    padding: 6px 12px;
+    text-align: left;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    border-radius: 4px;
+  }
+  
+  /* Hover effect for buttons */
+  #sign-in-dropdown button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #e0e0e0;
+  }
+  
