@@ -7,7 +7,7 @@ function toggleAccountMenu() {
     // Position the menu just below the button
     signInMenu.style.position = 'absolute';
     signInMenu.style.left = (rect.left-30) + "px";
-    signInMenu.style.top = (rect.bottom + window.scrollY) + "px";
+    signInMenu.style.top = (rect.bottom-10 + window.scrollY) + "px";
 
     // Toggle visibility using a CSS class
     signInMenu.classList.toggle("visible");

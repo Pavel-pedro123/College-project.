@@ -1,0 +1,70 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  display: block;
+}
+
+footer p {
+  font-size: small;
+}
+
+footer a {
+  font-size: small;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+
+#main {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.212);
+    background-color: #cccaca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#username-in {
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+}
+
+
+#password-in {
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#confirm-button {
+    margin-top: 40px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgb(131, 168, 255), rgb(81, 133, 255));
+    scale: 1.2;
+    transition: 100ms;
+}
+
+#confirm-button:hover {
+    cursor: pointer;
+    scale: 1.4;
+}
