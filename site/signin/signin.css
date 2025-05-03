@@ -19,22 +19,27 @@ footer a {
 }
 
 h1 {
-  font-size: 52px;
+  font-size: 30px;
 }
 
 
 #main {
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-bottom: 40px;
-    margin-top: 40px;
-    border: none;
-    border-radius: 20px;
-    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.212);
-    background-color: #cccaca;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.212);
+  background-color: #cccaca;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+
+#main input {
+width: 95%;
 }
 
 
