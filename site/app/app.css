@@ -1,0 +1,93 @@
+#title-img {
+    width: 70px;
+    margin-left: 20px;
+}
+
+#title-img:hover {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e0e0e0;
+}
+
+hr {
+  border: 1px solid black;
+
+}
+
+.topbar {
+    background: radial-gradient(rgb(255, 230, 0), rgb(255, 153, 0));
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid;
+}
+
+#signin-icon {
+    scale: 2;
+    transition: 200ms ease-in-out;
+    margin-right: 40px;
+}
+
+#signin-icon:hover {
+  color: rgb(56, 56, 56);
+}
+
+.sign-in-btn {
+    height: 75px;
+    width: 75px;
+    background: none;
+    border: none;
+}
+
+.sign-in-btn:hover {
+    cursor: pointer;
+}
+
+
+/* Dropdown container */
+#sign-in-dropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(255, 208, 0); 
+    padding: 8px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+    z-index: 1000;
+  }
+  
+  /* Visible state */
+  #sign-in-dropdown.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+  
+  /* Buttons inside dropdown */
+  #sign-in-dropdown button {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    padding: 6px 12px;
+    text-align: left;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    border-radius: 4px;
+  }
+  
+  /* Hover effect for buttons */
+  #sign-in-dropdown button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.384);
+  }

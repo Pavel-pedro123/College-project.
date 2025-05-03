@@ -101,12 +101,12 @@ footer a {
 }
   
 
-#tryitbtn {
+#dashboardbtn {
   border: none;
   border-radius: 7px;
-  font-size: x-large;
+  font-size: large;
   font-weight: 500;
-  background: linear-gradient(rgb(255, 230, 0), rgb(255, 153, 0));
+  background: linear-gradient(rgb(131, 168, 255), rgb(81, 133, 255));
   padding: 10px;
   margin-top: 10px;
   transition: 100ms ease-out;
@@ -114,7 +114,7 @@ footer a {
   margin-left: 10px;
 }
 
-#tryitbtn:hover {
+#dashboardbtn:hover {
   transform: translateY(-5px);
   cursor: pointer;  
 }
@@ -125,7 +125,7 @@ footer a {
   border-radius: 7px;
   font-size: x-large;
   font-weight: 500;
-  background: linear-gradient(rgb(131, 168, 255), rgb(81, 133, 255));
+  background: linear-gradient(rgb(255, 230, 0), rgb(255, 153, 0));
   padding: 10px;
   margin-top: 10px;
   transition: 100ms ease-out;
@@ -147,6 +147,8 @@ footer a {
 
 h1 {
   font-size: 52px;
+  width: 60%;
+  max-width: 500px;
 }
 
 #body-container p {
